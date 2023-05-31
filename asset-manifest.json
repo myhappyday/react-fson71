@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/react-fson71/static/js/main.d3010f73.js",
+    "main.js": "/react-fson71/static/js/main.b15c9509.js",
     "index.html": "/react-fson71/index.html",
-    "main.d3010f73.js.map": "/react-fson71/static/js/main.d3010f73.js.map"
+    "main.b15c9509.js.map": "/react-fson71/static/js/main.b15c9509.js.map"
   },
   "entrypoints": [
-    "static/js/main.d3010f73.js"
+    "static/js/main.b15c9509.js"
   ]
 }
