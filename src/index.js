@@ -1,8 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import users from './data.json';
-import Text from './Text';
-// // import { App } from 'components/App';
+// ==================== Module 1 Lesson 1 ====================
+
+// import React from 'react';
+// import ReactDOM from 'react-dom/client';
+// import users from './data.json';
+// import Text from './components/Text';
+
+// import { App } from 'components/App';
 // import './index.css';
 
 // const div1 = document.createElement('div');
@@ -92,27 +95,35 @@ import Text from './Text';
 // console.log('result', result);
 // ReactDOM.createRoot(document.getElementById('root')).render(result);
 
-const Card = () =>
-  users.map(el => {
-    return (
-      <div key={el.id} className="card" style={{ width: '18rem' }}>
-        <img
-          src="https://cdn.pixabay.com/photo/2023/04/16/09/49/waterfall-7929685_1280.jpg"
-          className="card-img-top"
-          alt="..."
-        />
-        <div className="card-body">
-          {/* <h5 className="card-title">{el.name}</h5> */}
-          {/* {Text({ name: el.name })} */}
-          <Text name={el.name} />
-          <p className="card-text">{el.email}</p>
-          <a href={el.website} className="btn btn-primary">
-            {el.website}
-          </a>
-        </div>
-      </div>
-    );
-  });
+// const Card = () =>
+//   users.map(el => {
+//     return (
+//       <div key={el.id} className="card" style={{ width: '18rem' }}>
+//         <img
+//           src="https://cdn.pixabay.com/photo/2023/04/16/09/49/waterfall-7929685_1280.jpg"
+//           className="card-img-top"
+//           alt="..."
+//         />
+//         <div className="card-body">
+//           {/* <h5 className="card-title">{el.name}</h5> */}
+//           {/* {Text({ name: el.name })} */}
+//           <Text name={el.name} email={el.email} />
+//           <p className="card-text">{el.email}</p>
+//           <a href={el.website} className="btn btn-primary">
+//             {el.website}
+//           </a>
+//         </div>
+//       </div>
+//     );
+//   });
 
-// ReactDOM.createRoot(document.getElementById('root')).render(card());
-ReactDOM.createRoot(document.getElementById('root')).render(<Card />);
+// // ReactDOM.createRoot(document.getElementById('root')).render(card());
+// ReactDOM.createRoot(document.getElementById('root')).render(<Card />);
+
+// ==================== Module 1 Lesson 2 ====================
+
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './components/App';
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
