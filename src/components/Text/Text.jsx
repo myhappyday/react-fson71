@@ -84,11 +84,21 @@
 // };
 
 // css-in-JS
+// import { Header } from './Text.styled';
 
-import { Header } from './Text.styled';
+// const Text = ({ children, isOnline }) => {
+//   return <Header isOn={isOnline}>{children}</Header>;
+// };
+
+// emotion
+import styled from '@emotion/styled';
+
+let SomeComp = styled.div({
+  color: 'hotpink',
+});
 
 const Text = ({ children, isOnline }) => {
-  return <Header isOn={isOnline}>{children}</Header>;
+  return <SomeComp isOn={isOnline}>{children}</SomeComp>;
 };
 
 export default Text;
