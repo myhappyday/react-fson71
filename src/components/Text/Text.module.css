@@ -1,0 +1,24 @@
+.title-name {
+  background-color: darkgrey;
+  color: red;
+}
+
+.titleName {
+  background-color: black;
+  color: yellowgreen;
+}
+
+.titleName.module {
+  background-color: blueviolet;
+  color: yellowgreen;
+}
+
+.titleName.online {
+  background-color: yellowgreen;
+  color: white;
+}
+
+.titleName.offline {
+  background-color: rgb(250, 5, 209);
+  color: white;
+}
